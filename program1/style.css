@@ -1,0 +1,94 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+
+.siteheader{
+	width:100%;
+	height:100vh;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+	width:100%;
+	height:100px;
+	color:white;
+	display:flex;
+	background:dodgerblue;
+}
+
+.logo{
+	width:50%;
+	height:100px;
+}
+
+.logo h1{line-height:100px;padding-left:50px;}
+
+.menu{
+	width:50%;
+	height:100px;
+}
+
+.menu ul{
+	width:100%;
+	height:100px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.menu ul li{
+	list-style:none;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.menu ul li:hover{
+	color: rgba(255,255,255,0.5);
+}
+
+section{display:flex;}
+
+.leftside{width:45%;height:auto;overflow:hidden;}
+
+.leftside img{width:600px;height:550px;position:absolute;left:0%;top:10%}
+
+.rightside{width:55%;height:300px;color:dodgerblue;text-align:center;margin-top:100px;padding:40px;}
+
+.rightside h1{font-size:35px;font-weight:bold;text-transform:uppercase;}
+
+.rightside p{font-size:1.1rem;padding:50px 0;}
+
+.rightside button{color:white;font-size:17px;font-weight:bold;text-transform:uppercase;padding:18px 30px;border-radius:8px;background: dodgerblue; }
+
+.rightside button:hover{background: rgba(30,144,255,0.8)}
+
+.bottom{width:100%;height:90px;background:dodgerblue;margin-top:100px;}
+
+.bottom h1{font-size:25px;font-weight:bold;color:white;text-align:center;padding:30px;}
+
+.subbottom{	
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	width:100%;
+	height:auto;
+}
+
+.subbottom h3{font-weight:bold;color:dodgerblue;text-align:center;margin-top:30px}
+
+.subbottom img{width:150px;border-radius:10px;border:2px solid black;}
+
+.subbottom p{font-size:15px;color:black;padding:20px;}
+
+footer{
+	width:100%;
+	height:70px;
+	background-color:dodgerblue;
+	color:white;
+	text-align:center;
+	margin-top:380px;
+	padding:30px 0;
+}
+
+	 
